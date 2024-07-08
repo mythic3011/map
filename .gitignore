@@ -1,0 +1,42 @@
+#
+# DO NOT EDIT.  CHANGES WILL BE OVERWRITTEN.
+#
+# This file is automatically updated by FastBack.  If you need to customize
+# these rules, please read this:
+#
+# https://pcal43.github.io/fastback/advanced.html#disabling-file-updates
+#
+
+session.lock
+
+.DS_Store
+# Minecraft server files to ignore
+logs/
+libraries/
+eula.txt
+*.log
+crash-reports/
+usercache.json
+usernamecache.json
+banned-ips.json
+banned-players.json
+ops.json
+whitelist.json
+server.properties
+world/stats/
+world/advancements/
+journeymap/
+
+# Mod-specific files (you might want to keep these in version control)
+# config/
+# mods/
+# defaultconfigs/
+
+# Scripts and runtime files
+run.bat
+run.sh
+start.ps1
+user_jvm_args.txt
+
+# FastBack specific
+.fastback/
