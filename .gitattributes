@@ -1,0 +1,4 @@
+*.dat filter=lfs diff=lfs merge=lfs -text
+*.mca filter=lfs diff=lfs merge=lfs -text
+world/**/*.dat filter=lfs diff=lfs merge=lfs -text
+world/**/*.mca filter=lfs diff=lfs merge=lfs -text
