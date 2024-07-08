@@ -1,0 +1,323 @@
+[09Jul2024 00:01:19.936] [Server thread/ERROR] [net.minecraft.commands.Commands/]: Command exception: /pregen start gen radius reg10kChunk square ~3000 ~3000 10000 minecraft:overworld
+java.lang.IllegalArgumentException: No enum constant pregenerator.common.utils.misc.GenShape.square
+	at java.lang.Enum.valueOf(Enum.java:273) ~[?:?]
+	at pregenerator.common.utils.misc.GenShape.valueOf(GenShape.java:24) ~[Chunk-Pregenerator-1.20-4.4.3.jar%23320!/:1.20-4.4.3]
+	at pregenerator.common.commands.GenCommand.executeRadius(GenCommand.java:208) ~[Chunk-Pregenerator-1.20-4.4.3.jar%23320!/:1.20-4.4.3]
+	at pregenerator.common.utils.misc.CommandBuilder.lambda$action$0(CommandBuilder.java:101) ~[Chunk-Pregenerator-1.20-4.4.3.jar%23320!/:1.20-4.4.3]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:264) ~[brigadier-1.1.8.jar%2376!/:?]
+	at net.minecraft.commands.Commands.m_242674_(Commands.java:257) ~[server-1.20.1-20230612.114412-srg.jar%23455!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_246958_(ServerGamePacketListenerImpl.java:1246) ~[server-1.20.1-20230612.114412-srg.jar%23455!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_244885_(ServerGamePacketListenerImpl.java:1223) ~[server-1.20.1-20230612.114412-srg.jar%23455!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23455!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23455!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23455!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23455!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23455!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23455!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23455!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23455!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23455!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23455!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23455!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23455!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23455!/:?]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[09Jul2024 00:03:23.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[09Jul2024 00:03:23.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/mahoutsukai:reality_marble
+[09Jul2024 00:03:23.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[09Jul2024 00:03:23.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[09Jul2024 00:03:23.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/bloodmagic:dungeon
+[09Jul2024 00:03:23.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ae2:spatial_storage
+[09Jul2024 00:03:23.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[09Jul2024 00:03:23.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (reality_marble): All chunks are saved
+[09Jul2024 00:03:23.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09Jul2024 00:03:23.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09Jul2024 00:03:23.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dungeon): All chunks are saved
+[09Jul2024 00:03:23.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[09Jul2024 00:03:23.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[09Jul2024 00:03:40.140] [pool-8-thread-3/ERROR] [fastback/]: net.pcal.fastback.shaded.org.eclipse.jgit.api.errors.TransportException: origin: not found.
+java.io.IOException: net.pcal.fastback.shaded.org.eclipse.jgit.api.errors.TransportException: origin: not found.
+	at net.pcal.fastback.repo.RepoImpl.lambda$getRemoteSnapshots$1(RepoImpl.java:212) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at net.pcal.fastback.repo.BranchUtils.listSnapshots(BranchUtils.java:44) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at net.pcal.fastback.repo.RepoImpl.getRemoteSnapshots(RepoImpl.java:216) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at net.pcal.fastback.commands.RemoteListCommand.lambda$execute$1(RemoteListCommand.java:57) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at net.pcal.fastback.commands.Commands.lambda$gitOp$0(Commands.java:125) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: net.pcal.fastback.shaded.org.eclipse.jgit.api.errors.TransportException: origin: not found.
+	at net.pcal.fastback.shaded.org.eclipse.jgit.api.LsRemoteCommand.execute(LsRemoteCommand.java:192) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at net.pcal.fastback.shaded.org.eclipse.jgit.api.LsRemoteCommand.call(LsRemoteCommand.java:131) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at net.pcal.fastback.repo.RepoImpl.lambda$getRemoteSnapshots$1(RepoImpl.java:210) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	... 9 more
+Caused by: net.pcal.fastback.shaded.org.eclipse.jgit.errors.NoRemoteRepositoryException: origin: not found.
+	at net.pcal.fastback.shaded.org.eclipse.jgit.transport.TransportLocal$1.open(TransportLocal.java:100) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at net.pcal.fastback.shaded.org.eclipse.jgit.transport.TransportBundleFile$1.open(TransportBundleFile.java:74) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at net.pcal.fastback.shaded.org.eclipse.jgit.transport.Transport.open(Transport.java:521) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at net.pcal.fastback.shaded.org.eclipse.jgit.transport.Transport.open(Transport.java:274) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at net.pcal.fastback.shaded.org.eclipse.jgit.transport.Transport.open(Transport.java:244) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at net.pcal.fastback.shaded.org.eclipse.jgit.api.LsRemoteCommand.execute(LsRemoteCommand.java:158) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at net.pcal.fastback.shaded.org.eclipse.jgit.api.LsRemoteCommand.call(LsRemoteCommand.java:131) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at net.pcal.fastback.repo.RepoImpl.lambda$getRemoteSnapshots$1(RepoImpl.java:210) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	... 9 more
+[09Jul2024 00:04:43.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[09Jul2024 00:04:43.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/mahoutsukai:reality_marble
+[09Jul2024 00:04:43.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[09Jul2024 00:04:43.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[09Jul2024 00:04:43.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/bloodmagic:dungeon
+[09Jul2024 00:04:43.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ae2:spatial_storage
+[09Jul2024 00:04:43.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[09Jul2024 00:04:43.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (reality_marble): All chunks are saved
+[09Jul2024 00:04:43.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09Jul2024 00:04:43.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09Jul2024 00:04:43.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dungeon): All chunks are saved
+[09Jul2024 00:04:43.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[09Jul2024 00:04:43.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[09Jul2024 00:04:43.739] [pool-8-thread-4/INFO] [net.minecraft.server.MinecraftServer/]: The server is starting a backup.
+[09Jul2024 00:04:43.924] [pool-8-thread-4/ERROR] [fastback/]: Exit 128 when executing: git -C C:\Users\a1667\Desktop\1.20.1Custom lfs install --local
+net.pcal.fastback.utils.ProcessException: Exit 128 when executing: git -C C:\Users\a1667\Desktop\1.20.1Custom lfs install --local
+	at net.pcal.fastback.utils.ProcessUtils.doExec(ProcessUtils.java:75) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at net.pcal.fastback.utils.ProcessUtils.doExec(ProcessUtils.java:44) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at net.pcal.fastback.repo.PreflightUtils.updateNativeLfsInstallation(PreflightUtils.java:85) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at net.pcal.fastback.repo.PreflightUtils.doPreflight(PreflightUtils.java:73) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at net.pcal.fastback.repo.CommitUtils.doCommitSnapshot(CommitUtils.java:67) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at net.pcal.fastback.repo.RepoImpl.doCommitAndPush(RepoImpl.java:97) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at net.pcal.fastback.commands.FullCommand.lambda$run$1(FullCommand.java:65) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at net.pcal.fastback.commands.Commands.lambda$gitOp$0(Commands.java:125) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[09Jul2024 00:05:33.976] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[09Jul2024 00:05:33.976] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  <--[HERE]
+[09Jul2024 00:05:34.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[09Jul2024 00:05:34.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <--[HERE]
+[09Jul2024 00:05:34.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[09Jul2024 00:05:34.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <--[HERE]
+[09Jul2024 00:11:37.338] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecolonies:medieval_dark_oak_colony' in chunk [-38, 73], discarding
+[09Jul2024 00:11:37.339] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecolonies:medieval_dark_oak_colony' in chunk [-37, 73], discarding
+[09Jul2024 00:11:37.340] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecolonies:medieval_dark_oak_colony' in chunk [-36, 73], discarding
+[09Jul2024 00:11:38.709] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: cannian09 moved too quickly! 178.628275562306,8.5,-1214.807252219775
+[09Jul2024 00:14:02.720] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[09Jul2024 00:14:03.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/mahoutsukai:reality_marble
+[09Jul2024 00:14:03.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[09Jul2024 00:14:03.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[09Jul2024 00:14:03.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/bloodmagic:dungeon
+[09Jul2024 00:14:03.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ae2:spatial_storage
+[09Jul2024 00:14:03.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[09Jul2024 00:14:03.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (reality_marble): All chunks are saved
+[09Jul2024 00:14:03.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09Jul2024 00:14:03.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09Jul2024 00:14:03.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dungeon): All chunks are saved
+[09Jul2024 00:14:03.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[09Jul2024 00:14:03.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[09Jul2024 00:14:03.575] [pool-8-thread-5/INFO] [net.minecraft.server.MinecraftServer/]: The server is starting a backup.
+[09Jul2024 00:14:03.757] [pool-8-thread-5/ERROR] [fastback/]: Exit 128 when executing: git -C C:\Users\a1667\Desktop\1.20.1Custom lfs install --local
+net.pcal.fastback.utils.ProcessException: Exit 128 when executing: git -C C:\Users\a1667\Desktop\1.20.1Custom lfs install --local
+	at net.pcal.fastback.utils.ProcessUtils.doExec(ProcessUtils.java:75) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at net.pcal.fastback.utils.ProcessUtils.doExec(ProcessUtils.java:44) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at net.pcal.fastback.repo.PreflightUtils.updateNativeLfsInstallation(PreflightUtils.java:85) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at net.pcal.fastback.repo.PreflightUtils.doPreflight(PreflightUtils.java:73) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at net.pcal.fastback.repo.CommitUtils.doCommitSnapshot(CommitUtils.java:67) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at net.pcal.fastback.repo.RepoImpl.doCommitAndPush(RepoImpl.java:97) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at net.pcal.fastback.commands.FullCommand.lambda$run$1(FullCommand.java:65) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at net.pcal.fastback.commands.Commands.lambda$gitOp$0(Commands.java:125) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[09Jul2024 00:17:36.710] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecolonies:medieval_dark_oak_colony' in chunk [-36, 73], discarding
+[09Jul2024 00:17:36.726] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecolonies:medieval_dark_oak_colony' in chunk [-37, 73], discarding
+[09Jul2024 00:18:07.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <RTX69069_69GB> use git to backup map lmao
+[09Jul2024 00:23:54.759] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <RTX69069_69GB> 4
+[09Jul2024 00:24:27.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kevin952700 has made the advancement [Dancer in the Dark]
+[09Jul2024 00:25:02.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[09Jul2024 00:25:02.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/mahoutsukai:reality_marble
+[09Jul2024 00:25:02.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[09Jul2024 00:25:02.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[09Jul2024 00:25:02.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/bloodmagic:dungeon
+[09Jul2024 00:25:02.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ae2:spatial_storage
+[09Jul2024 00:25:02.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[09Jul2024 00:25:02.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (reality_marble): All chunks are saved
+[09Jul2024 00:25:02.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09Jul2024 00:25:02.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09Jul2024 00:25:02.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dungeon): All chunks are saved
+[09Jul2024 00:25:02.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[09Jul2024 00:25:02.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[09Jul2024 00:25:03.075] [pool-8-thread-6/INFO] [net.minecraft.server.MinecraftServer/]: The server is starting a backup.
+[09Jul2024 00:25:03.242] [pool-8-thread-6/ERROR] [fastback/]: Exit 128 when executing: git -C C:\Users\a1667\Desktop\1.20.1Custom lfs install --local
+net.pcal.fastback.utils.ProcessException: Exit 128 when executing: git -C C:\Users\a1667\Desktop\1.20.1Custom lfs install --local
+	at net.pcal.fastback.utils.ProcessUtils.doExec(ProcessUtils.java:75) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at net.pcal.fastback.utils.ProcessUtils.doExec(ProcessUtils.java:44) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at net.pcal.fastback.repo.PreflightUtils.updateNativeLfsInstallation(PreflightUtils.java:85) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at net.pcal.fastback.repo.PreflightUtils.doPreflight(PreflightUtils.java:73) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at net.pcal.fastback.repo.CommitUtils.doCommitSnapshot(CommitUtils.java:67) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at net.pcal.fastback.repo.RepoImpl.doCommitAndPush(RepoImpl.java:97) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at net.pcal.fastback.commands.FullCommand.lambda$run$1(FullCommand.java:65) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at net.pcal.fastback.commands.Commands.lambda$gitOp$0(Commands.java:125) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[09Jul2024 00:25:05.723] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: RTX69069_69GB lost connection: Disconnected
+[09Jul2024 00:25:05.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RTX69069_69GB left the game
+[09Jul2024 00:25:05.724] [Server thread/INFO] [net.nicguzzo.wands.WandsMod/]: remove player wand
+[09Jul2024 00:27:52.956] [Worker-Main-205/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[09Jul2024 00:27:52.956] [Worker-Main-205/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[09Jul2024 00:27:52.961] [Worker-Main-205/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[09Jul2024 00:27:52.963] [Worker-Main-205/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[09Jul2024 00:27:52.972] [Worker-Main-205/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[09Jul2024 00:27:52.972] [Worker-Main-205/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[09Jul2024 00:27:53.017] [Worker-Main-205/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[09Jul2024 00:27:53.018] [Worker-Main-205/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[09Jul2024 00:27:54.582] [Server thread/INFO] [net.blay09.mods.waystones.core.PlayerWaystoneManager/]: Rejected teleport: MissingWaystone
+[09Jul2024 00:27:54.582] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2422ms or 48 ticks behind
+[09Jul2024 00:27:56.357] [Server thread/INFO] [net.blay09.mods.waystones.core.PlayerWaystoneManager/]: Rejected teleport: MissingWaystone
+[09Jul2024 00:28:51.429] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecolonies:medieval_dark_oak_colony' in chunk [-38, 73], discarding
+[09Jul2024 00:28:51.430] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecolonies:medieval_dark_oak_colony' in chunk [-37, 73], discarding
+[09Jul2024 00:28:51.480] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecolonies:medieval_dark_oak_colony' in chunk [-36, 73], discarding
+[09Jul2024 00:30:36.531] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecolonies:medieval_dark_oak_colony' in chunk [-38, 73], discarding
+[09Jul2024 00:31:52.324] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Librarian'/6223430, l='ServerLevel[world]', x=-729.41, y=66.54, z=1349.74] died, message: 'Librarian was slain by Kevin952700'
+[09Jul2024 00:33:56.922] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Librarian'/6223435, l='ServerLevel[world]', x=-746.83, y=66.00, z=1330.18] died, message: 'Librarian was slain by Kevin952700'
+[09Jul2024 00:34:15.522] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/6223438, l='ServerLevel[world]', x=-738.66, y=67.00, z=1389.78] died, message: 'Unemployed was slain by Kevin952700'
+[09Jul2024 00:34:38.818] [User Authenticator #23/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting /[fe80::c7f9:3375:4760:6948]:6839: Failed to verify username!
+[09Jul2024 00:34:38.818] [User Authenticator #23/ERROR] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Username 'RTX69069_69GB' tried to join with an invalid session
+[09Jul2024 00:34:38.825] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: /[fe80::c7f9:3375:4760:6948]:6839 lost connection: Failed to verify username!
+[09Jul2024 00:34:45.017] [User Authenticator #24/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting /[fe80::c7f9:3375:4760:6948]:6846: Failed to verify username!
+[09Jul2024 00:34:45.017] [User Authenticator #24/ERROR] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Username 'RTX69069_69GB' tried to join with an invalid session
+[09Jul2024 00:34:45.025] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: /[fe80::c7f9:3375:4760:6948]:6846 lost connection: Failed to verify username!
+[09Jul2024 00:35:45.615] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/6223436, l='ServerLevel[world]', x=-747.14, y=69.00, z=1392.53] died, message: 'Unemployed was killed by Kevin952700 using magic'
+[09Jul2024 00:35:46.314] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Librarian'/6223444, l='ServerLevel[world]', x=-748.51, y=68.52, z=1394.70] died, message: 'Librarian was killed by Kevin952700 using magic'
+[09Jul2024 00:35:59.215] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Mason'/6223445, l='ServerLevel[world]', x=-738.30, y=67.62, z=1401.70] died, message: 'Mason was killed by Kevin952700 using magic'
+[09Jul2024 00:40:31.496] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:40:31.637] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:40:32.450] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:40:34.289] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:40:34.341] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:40:35.249] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:40:35.342] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:40:35.497] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:40:35.546] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:40:35.690] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:40:35.738] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:40:35.893] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:40:35.949] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:40:36.097] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:40:36.145] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:40:36.297] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:40:36.345] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:40:36.488] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:40:36.540] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:40:36.692] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:40:36.741] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:40:36.892] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:40:36.952] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:40:37.103] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:40:37.151] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:40:37.291] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:40:37.340] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:40:37.640] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:40:37.695] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:40:37.839] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:40:37.899] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:40:38.043] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:40:38.096] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:40:38.236] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:40:38.292] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:40:44.941] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:40:45.049] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:40:45.189] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:40:45.254] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:41:05.948] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:41:09.521] [User Authenticator #25/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player RTX69069_69GB is b51eb7e8-6500-405f-baae-fd9674e07dc5
+[09Jul2024 00:41:15.448] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:41:15.548] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:41:18.487] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: aiotbotania:recipe_terrasteel_aiot removed now.
+[09Jul2024 00:41:18.488] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: aiotbotania:recipe_terrasteel_aiot_tipped removed now.
+[09Jul2024 00:41:18.490] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: apotheosis:potion_charm_enchanting removed now.
+[09Jul2024 00:41:18.493] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: aiotbotania:recipe_terrasteel_aiot removed now.
+[09Jul2024 00:41:18.493] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: aiotbotania:recipe_terrasteel_aiot_tipped removed now.
+[09Jul2024 00:41:18.495] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: apotheosis:potion_charm_enchanting removed now.
+[09Jul2024 00:41:18.495] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: RTX69069_69GB[/[fe80::c7f9:3375:4760:6948]:7097] logged in with entity id 6233743 at (-119.69999998807907, 76.54815707329817, 96.71724952037891)
+[09Jul2024 00:41:18.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RTX69069_69GB joined the game
+[09Jul2024 00:41:18.565] [Server thread/INFO] [net.nicguzzo.wands.WandsMod/]: PLAYER_JOIN
+[09Jul2024 00:41:18.565] [Server thread/INFO] [net.nicguzzo.wands.WandsMod/]: add_player wand
+[09Jul2024 00:41:18.565] [Server thread/INFO] [net.nicguzzo.wands.WandsMod/]: config sent
+[09Jul2024 00:41:18.568] [Server thread/INFO] [Jade/]: Syncing config to RTX69069_69GB (b51eb7e8-6500-405f-baae-fd9674e07dc5)
+[09Jul2024 00:41:37.751] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:41:37.904] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:41:37.960] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:41:38.104] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:41:38.152] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:41:38.291] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:41:38.347] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:41:38.498] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:41:38.545] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:41:38.695] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:41:38.739] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:41:38.891] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:41:38.943] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:41:39.140] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:41:39.196] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:41:39.339] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:43:14.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[09Jul2024 00:43:15.097] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/mahoutsukai:reality_marble
+[09Jul2024 00:43:15.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[09Jul2024 00:43:15.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[09Jul2024 00:43:15.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/bloodmagic:dungeon
+[09Jul2024 00:43:15.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ae2:spatial_storage
+[09Jul2024 00:43:15.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[09Jul2024 00:43:15.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (reality_marble): All chunks are saved
+[09Jul2024 00:43:15.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09Jul2024 00:43:15.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09Jul2024 00:43:15.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dungeon): All chunks are saved
+[09Jul2024 00:43:15.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[09Jul2024 00:43:15.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[09Jul2024 00:43:15.466] [pool-8-thread-7/INFO] [net.minecraft.server.MinecraftServer/]: The server is starting a backup.
+[09Jul2024 00:43:22.207] [pool-8-thread-7/ERROR] [fastback/]: net.pcal.fastback.shaded.org.eclipse.jgit.api.errors.TransportException: https://github.com/mythic3011/map.git: Authentication is required but no CredentialsProvider has been registered
+java.io.IOException: net.pcal.fastback.shaded.org.eclipse.jgit.api.errors.TransportException: https://github.com/mythic3011/map.git: Authentication is required but no CredentialsProvider has been registered
+	at net.pcal.fastback.repo.PushUtils.doPush(PushUtils.java:120) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at net.pcal.fastback.repo.RepoImpl.doCommitAndPush(RepoImpl.java:104) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at net.pcal.fastback.commands.FullCommand.lambda$run$1(FullCommand.java:65) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at net.pcal.fastback.commands.Commands.lambda$gitOp$0(Commands.java:125) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: net.pcal.fastback.shaded.org.eclipse.jgit.api.errors.TransportException: https://github.com/mythic3011/map.git: Authentication is required but no CredentialsProvider has been registered
+	at net.pcal.fastback.shaded.org.eclipse.jgit.api.LsRemoteCommand.execute(LsRemoteCommand.java:192) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at net.pcal.fastback.shaded.org.eclipse.jgit.api.LsRemoteCommand.call(LsRemoteCommand.java:131) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at net.pcal.fastback.repo.PushUtils.doPush(PushUtils.java:87) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	... 8 more
+Caused by: net.pcal.fastback.shaded.org.eclipse.jgit.errors.TransportException: https://github.com/mythic3011/map.git: Authentication is required but no CredentialsProvider has been registered
+	at net.pcal.fastback.shaded.org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:689) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at net.pcal.fastback.shaded.org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:467) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at net.pcal.fastback.shaded.org.eclipse.jgit.api.LsRemoteCommand.execute(LsRemoteCommand.java:170) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at net.pcal.fastback.shaded.org.eclipse.jgit.api.LsRemoteCommand.call(LsRemoteCommand.java:131) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	at net.pcal.fastback.repo.PushUtils.doPush(PushUtils.java:87) ~[fastback-0.15.6+1.20.1-forge.jar%23359!/:?]
+	... 8 more
+[09Jul2024 00:43:23.998] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:43:55.401] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kevin952700 moved wrongly!
+[09Jul2024 00:50:19.460] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: RTX69069_69GB moved too quickly! -10.443472792814347,0.0,1.066470511292934
+[09Jul2024 00:50:22.596] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: RTX69069_69GB moved too quickly! -9.867264849207643,0.0,2.051758314094272
+[09Jul2024 00:53:23.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[09Jul2024 00:53:23.754] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/mahoutsukai:reality_marble
+[09Jul2024 00:53:23.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[09Jul2024 00:53:23.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[09Jul2024 00:53:24.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/bloodmagic:dungeon
+[09Jul2024 00:53:24.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ae2:spatial_storage
+[09Jul2024 00:53:24.161] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[09Jul2024 00:53:24.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (reality_marble): All chunks are saved
+[09Jul2024 00:53:24.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09Jul2024 00:53:24.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09Jul2024 00:53:24.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dungeon): All chunks are saved
+[09Jul2024 00:53:24.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[09Jul2024 00:53:24.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[09Jul2024 00:53:24.366] [pool-8-thread-9/INFO] [net.minecraft.server.MinecraftServer/]: start backup

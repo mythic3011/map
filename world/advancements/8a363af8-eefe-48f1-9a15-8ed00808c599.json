@@ -1,0 +1,1407 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:old_growth_pine_taiga": "2024-07-02 22:45:59 +0800",
+      "minecraft:taiga": "2024-07-02 22:46:02 +0800",
+      "minecraft:deep_ocean": "2024-06-30 22:20:15 +0800",
+      "minecraft:eroded_badlands": "2024-07-02 22:53:42 +0800",
+      "minecraft:birch_forest": "2024-07-02 22:15:56 +0800",
+      "minecraft:beach": "2024-07-02 03:55:18 +0800",
+      "minecraft:dark_forest": "2024-07-02 22:45:57 +0800",
+      "minecraft:river": "2024-06-30 20:52:55 +0800",
+      "minecraft:lukewarm_ocean": "2024-07-02 22:52:56 +0800",
+      "minecraft:stony_shore": "2024-06-30 02:50:03 +0800",
+      "minecraft:dripstone_caves": "2024-07-09 00:20:03 +0800",
+      "minecraft:grove": "2024-06-30 03:03:54 +0800",
+      "minecraft:swamp": "2024-07-07 04:46:55 +0800",
+      "minecraft:forest": "2024-06-30 02:40:06 +0800",
+      "minecraft:desert": "2024-07-02 22:53:04 +0800",
+      "minecraft:ocean": "2024-06-30 21:05:18 +0800",
+      "minecraft:jungle": "2024-07-05 00:39:34 +0800",
+      "minecraft:old_growth_spruce_taiga": "2024-07-02 22:47:00 +0800",
+      "minecraft:flower_forest": "2024-07-04 06:01:51 +0800",
+      "minecraft:old_growth_birch_forest": "2024-07-02 22:45:49 +0800",
+      "minecraft:deep_dark": "2024-07-04 03:56:25 +0800",
+      "minecraft:meadow": "2024-06-30 03:01:05 +0800",
+      "minecraft:savanna": "2024-07-05 01:19:22 +0800",
+      "minecraft:plains": "2024-07-02 03:58:26 +0800"
+    },
+    "done": false
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2024-06-30 02:50:18 +0800"
+    },
+    "done": true
+  },
+  "naturescompass:natures_compass": {
+    "criteria": {
+      "has_recipe": "2024-06-30 18:43:19 +0800"
+    },
+    "done": true
+  },
+  "naturescompass:natures_compass_sapling": {
+    "criteria": {
+      "has_recipe": "2024-06-30 18:43:19 +0800"
+    },
+    "done": true
+  },
+  "betterdungeons:root": {
+    "criteria": {
+      "always": "2024-06-30 18:43:19 +0800"
+    },
+    "done": true
+  },
+  "dungeons_arise:wda_root": {
+    "criteria": {
+      "WDA": "2024-06-30 18:43:19 +0800"
+    },
+    "done": true
+  },
+  "naturescompass:natures_compass_log": {
+    "criteria": {
+      "has_recipe": "2024-06-30 18:43:19 +0800"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2024-06-30 18:44:16 +0800"
+    },
+    "done": true
+  },
+  "ironfurnaces:coal": {
+    "criteria": {
+      "rainbowcoal": "2024-06-30 18:44:16 +0800"
+    },
+    "done": true
+  },
+  "slashblade:movesets": {
+    "criteria": {
+      "crafting": "2024-06-30 20:01:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_chestplate": "2024-06-30 20:09:56 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2024-06-30 20:11:25 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2024-06-30 20:12:10 +0800"
+    },
+    "done": true
+  },
+  "slashblade:material/proudsoul_tiny": {
+    "criteria": {
+      "BrokenBlade": "2024-06-30 20:12:35 +0800"
+    },
+    "done": true
+  },
+  "slashblade:root": {
+    "criteria": {
+      "attackTheEntity": "2024-06-30 20:12:35 +0800"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "cooked_beef": "2024-07-04 05:54:40 +0800",
+      "baked_potato": "2024-07-02 03:23:13 +0800",
+      "apple": "2024-06-30 20:20:28 +0800",
+      "potato": "2024-07-02 04:10:37 +0800",
+      "bread": "2024-06-30 22:30:51 +0800",
+      "rotten_flesh": "2024-06-30 21:01:28 +0800",
+      "melon_slice": "2024-06-30 21:36:12 +0800",
+      "cooked_chicken": "2024-06-30 22:44:09 +0800",
+      "carrot": "2024-07-04 06:22:18 +0800"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2024-06-30 20:20:28 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2024-06-30 20:20:38 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2024-06-30 20:39:27 +0800"
+    },
+    "done": true
+  },
+  "trashcans:trash_can": {
+    "criteria": {
+      "has_item_trash_can": "2024-06-30 20:56:13 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:blaze": "2024-07-02 00:29:18 +0800",
+      "minecraft:pillager": "2024-07-04 05:31:28 +0800",
+      "minecraft:skeleton": "2024-06-30 22:28:52 +0800",
+      "minecraft:ravager": "2024-07-05 00:44:36 +0800",
+      "minecraft:ghast": "2024-07-01 20:35:24 +0800",
+      "minecraft:guardian": "2024-07-07 19:27:02 +0800",
+      "minecraft:vindicator": "2024-07-04 05:32:53 +0800",
+      "minecraft:magma_cube": "2024-07-02 05:49:35 +0800",
+      "minecraft:spider": "2024-06-30 22:19:21 +0800",
+      "minecraft:creeper": "2024-06-30 20:57:05 +0800",
+      "minecraft:wither": "2024-07-04 23:33:15 +0800",
+      "minecraft:slime": "2024-06-30 22:19:39 +0800",
+      "minecraft:evoker": "2024-07-05 23:01:06 +0800",
+      "minecraft:phantom": "2024-07-04 21:35:54 +0800",
+      "minecraft:zombified_piglin": "2024-07-02 00:34:03 +0800",
+      "minecraft:witch": "2024-07-05 23:00:34 +0800",
+      "minecraft:wither_skeleton": "2024-07-01 21:13:35 +0800",
+      "minecraft:husk": "2024-07-04 20:49:59 +0800",
+      "quark:wraith": "2024-07-04 22:45:17 +0800",
+      "minecraft:piglin": "2024-07-04 22:37:48 +0800",
+      "minecraft:enderman": "2024-07-01 21:08:51 +0800",
+      "minecraft:silverfish": "2024-07-04 05:55:35 +0800",
+      "minecraft:stray": "2024-07-08 18:16:18 +0800",
+      "minecraft:vex": "2024-07-05 23:00:32 +0800",
+      "minecraft:zombie": "2024-06-30 21:00:57 +0800",
+      "quark:foxhound": "2024-07-02 05:02:46 +0800",
+      "minecraft:drowned": "2024-07-06 06:39:48 +0800",
+      "minecraft:zombie_villager": "2024-07-03 00:16:02 +0800"
+    },
+    "done": false
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:creeper": "2024-06-30 20:57:05 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2024-06-30 22:17:58 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2024-06-30 22:29:46 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2024-06-30 22:36:04 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2024-06-30 22:36:04 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2024-07-01 19:45:19 +0800",
+      "minecraft:soul_sand_valley": "2024-06-30 22:36:06 +0800",
+      "minecraft:nether_wastes": "2024-07-01 19:45:10 +0800",
+      "minecraft:basalt_deltas": "2024-07-01 20:19:38 +0800"
+    },
+    "done": false
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2024-06-30 23:14:54 +0800"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2024-06-30 23:19:46 +0800"
+    },
+    "done": true
+  },
+  "create:andesite_alloy": {
+    "criteria": {
+      "0": "2024-07-01 02:14:29 +0800"
+    },
+    "done": true
+  },
+  "create:andesite_casing": {
+    "criteria": {
+      "0": "2024-07-01 02:18:21 +0800"
+    },
+    "done": true
+  },
+  "create:water_wheel": {
+    "criteria": {
+      "0": "2024-07-01 02:19:28 +0800"
+    },
+    "done": true
+  },
+  "create:mechanical_press": {
+    "criteria": {
+      "0": "2024-07-01 19:05:01 +0800"
+    },
+    "done": true
+  },
+  "create:wrench_goggles": {
+    "criteria": {
+      "0": "2024-07-01 19:08:30 +0800",
+      "1": "2024-07-01 19:07:15 +0800"
+    },
+    "done": true
+  },
+  "create:shifting_gears": {
+    "criteria": {
+      "0": "2024-07-01 19:33:48 +0800"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/root": {
+    "criteria": {
+      "crystalline_chasm": "2024-07-01 19:44:48 +0800"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "woodland": "2024-07-04 06:04:27 +0800",
+      "shrubland": "2024-07-02 03:59:20 +0800",
+      "erupting_inferno": "2024-07-01 19:45:02 +0800",
+      "lush_savanna": "2024-07-02 22:53:14 +0800",
+      "highland": "2024-07-02 02:56:52 +0800",
+      "clover_patch": "2024-07-02 02:56:42 +0800",
+      "old_growth_woodland": "2024-07-02 22:52:41 +0800",
+      "crystalline_chasm": "2024-07-01 19:44:48 +0800",
+      "withered_abyss": "2024-07-01 19:45:40 +0800",
+      "field": "2024-07-02 03:50:09 +0800",
+      "orchard": "2024-07-02 03:55:39 +0800",
+      "lavender_forest": "2024-07-02 03:57:51 +0800",
+      "coniferous_forest": "2024-07-02 03:50:37 +0800",
+      "forested_field": "2024-07-02 22:46:31 +0800",
+      "spider_nest": "2024-07-02 22:49:14 +0800",
+      "dryland": "2024-07-02 22:53:29 +0800",
+      "wasteland": "2024-07-02 22:53:05 +0800",
+      "lush_desert": "2024-07-02 22:53:16 +0800",
+      "redwood_forest": "2024-07-02 02:56:53 +0800",
+      "visceral_heap": "2024-07-01 19:45:47 +0800",
+      "volcano": "2024-07-02 22:49:39 +0800",
+      "volcanic_plains": "2024-07-02 22:52:24 +0800",
+      "fir_clearing": "2024-07-09 00:25:03 +0800",
+      "grassland": "2024-07-02 03:59:18 +0800",
+      "undergrowth": "2024-07-06 03:43:19 +0800",
+      "rainforest": "2024-07-02 22:52:40 +0800"
+    },
+    "done": false
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2024-07-01 19:46:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2024-07-01 20:11:57 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2024-07-01 20:34:18 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2024-07-01 20:35:24 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2024-07-01 20:36:03 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2024-07-01 21:12:13 +0800"
+    },
+    "done": true
+  },
+  "create:burner": {
+    "criteria": {
+      "0": "2024-07-01 21:13:02 +0800"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_illager_corsair_or_illager_galley": {
+    "criteria": {
+      "location0": "2024-07-01 21:41:38 +0800"
+    },
+    "done": true
+  },
+  "create:copper": {
+    "criteria": {
+      "0": "2024-07-01 21:43:45 +0800"
+    },
+    "done": true
+  },
+  "create:mechanical_mixer": {
+    "criteria": {
+      "0": "2024-07-01 21:44:57 +0800"
+    },
+    "done": true
+  },
+  "create:brass": {
+    "criteria": {
+      "0": "2024-07-01 21:45:01 +0800"
+    },
+    "done": true
+  },
+  "create:rose_quartz": {
+    "criteria": {
+      "0": "2024-07-01 22:21:00 +0800"
+    },
+    "done": true
+  },
+  "create:super_glue": {
+    "criteria": {
+      "0": "2024-07-01 22:26:40 +0800"
+    },
+    "done": true
+  },
+  "create:contraption_actors": {
+    "criteria": {
+      "0": "2024-07-01 22:27:01 +0800"
+    },
+    "done": true
+  },
+  "create:portable_storage_interface": {
+    "criteria": {
+      "0": "2024-07-01 22:53:33 +0800"
+    },
+    "done": true
+  },
+  "create:chute": {
+    "criteria": {
+      "0": "2024-07-01 22:53:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_helmet": "2024-07-02 00:26:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2024-07-02 00:29:36 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2024-07-02 00:33:30 +0800"
+    },
+    "done": true
+  },
+  "create:brass_casing": {
+    "criteria": {
+      "0": "2024-07-02 01:11:12 +0800"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_mushroom_mines": {
+    "criteria": {
+      "location0": "2024-07-02 02:56:42 +0800"
+    },
+    "done": true
+  },
+  "botania:main/lexicon_use": {
+    "criteria": {
+      "use_lexicon": "2024-07-02 03:44:51 +0800"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_abandoned_temple": {
+    "criteria": {
+      "location0": "2024-07-02 03:50:09 +0800"
+    },
+    "done": true
+  },
+  "botania:challenge/root": {
+    "criteria": {
+      "flower": "2024-07-02 03:50:49 +0800"
+    },
+    "done": true
+  },
+  "botania:main/root": {
+    "criteria": {
+      "flower": "2024-07-02 03:50:49 +0800"
+    },
+    "done": true
+  },
+  "botania:main/flower_pickup_lexicon": {
+    "criteria": {
+      "flower": "2024-07-02 03:50:49 +0800"
+    },
+    "done": true
+  },
+  "botania:main/flower_pickup": {
+    "criteria": {
+      "flower": "2024-07-02 03:50:49 +0800"
+    },
+    "done": true
+  },
+  "quark:get_all_corundum": {
+    "criteria": {
+      "white": "2024-07-02 03:51:32 +0800"
+    },
+    "done": false
+  },
+  "botania:main/apothecary_pickup": {
+    "criteria": {
+      "apothecary": "2024-07-02 04:01:34 +0800"
+    },
+    "done": true
+  },
+  "botania:main/pure_daisy_pickup": {
+    "criteria": {
+      "daisy": "2024-07-02 04:15:53 +0800"
+    },
+    "done": true
+  },
+  "botania:main/generating_flower": {
+    "criteria": {
+      "flower": "2024-07-02 04:27:09 +0800"
+    },
+    "done": true
+  },
+  "botania:main/mana_pool_pickup_lexicon": {
+    "criteria": {
+      "pickup": "2024-07-02 04:40:13 +0800"
+    },
+    "done": true
+  },
+  "botania:main/mana_pool_pickup": {
+    "criteria": {
+      "pickup": "2024-07-02 04:40:13 +0800"
+    },
+    "done": true
+  },
+  "botania:main/bauble_wear": {
+    "criteria": {
+      "code_triggered": "2024-07-02 04:43:43 +0800"
+    },
+    "done": true
+  },
+  "botania:main/runic_altar_pickup": {
+    "criteria": {
+      "altar": "2024-07-02 04:52:08 +0800"
+    },
+    "done": true
+  },
+  "botania:main/rune_pickup": {
+    "criteria": {
+      "rune": "2024-07-02 05:08:47 +0800"
+    },
+    "done": true
+  },
+  "slashblade:blade/s_wood": {
+    "criteria": {
+      "crafting": "2024-07-02 05:43:46 +0800"
+    },
+    "done": true
+  },
+  "slashblade:arts/combo_a": {
+    "criteria": {
+      "customtrigger": "2024-07-02 05:43:53 +0800"
+    },
+    "done": true
+  },
+  "slashblade:abilities/trick_dodge": {
+    "criteria": {
+      "customtrigger": "2024-07-02 05:43:55 +0800"
+    },
+    "done": true
+  },
+  "slashblade:arts/aerial_a": {
+    "criteria": {
+      "customtrigger": "2024-07-02 05:44:33 +0800"
+    },
+    "done": true
+  },
+  "slashblade:arts/judgement_cut_just": {
+    "criteria": {
+      "customtrigger": "2024-07-02 05:45:16 +0800"
+    },
+    "done": true
+  },
+  "slashblade:arts/quick_charge": {
+    "criteria": {
+      "customtrigger": "2024-07-02 05:45:16 +0800"
+    },
+    "done": true
+  },
+  "slashblade:arts/judgement_cut": {
+    "criteria": {
+      "customtrigger": "2024-07-02 05:45:26 +0800"
+    },
+    "done": true
+  },
+  "slashblade:material/proudsoul": {
+    "criteria": {
+      "BrokenBlade": "2024-07-02 05:45:30 +0800"
+    },
+    "done": true
+  },
+  "slashblade:arts/aerial_b": {
+    "criteria": {
+      "customtrigger": "2024-07-02 05:47:20 +0800"
+    },
+    "done": true
+  },
+  "slashblade:arts/rising_star": {
+    "criteria": {
+      "customtrigger": "2024-07-02 05:48:27 +0800"
+    },
+    "done": true
+  },
+  "slashblade:arts/rapid_slash": {
+    "criteria": {
+      "customtrigger": "2024-07-02 05:48:27 +0800"
+    },
+    "done": true
+  },
+  "slashblade:abilities/guard": {
+    "criteria": {
+      "customtrigger": "2024-07-02 05:48:46 +0800"
+    },
+    "done": true
+  },
+  "slashblade:abilities/enemy_step": {
+    "criteria": {
+      "customtrigger": "2024-07-02 05:48:51 +0800"
+    },
+    "done": true
+  },
+  "slashblade:abilities/kick_jump": {
+    "criteria": {
+      "customtrigger": "2024-07-02 05:49:13 +0800"
+    },
+    "done": true
+  },
+  "slashblade:arts/combo_b": {
+    "criteria": {
+      "customtrigger": "2024-07-02 23:01:52 +0800"
+    },
+    "done": true
+  },
+  "slashblade:material/proudsoul_ingot": {
+    "criteria": {
+      "BrokenBlade": "2024-07-02 23:06:03 +0800"
+    },
+    "done": true
+  },
+  "slashblade:material/proudsoul_sphere": {
+    "criteria": {
+      "BrokenBlade": "2024-07-02 23:06:13 +0800"
+    },
+    "done": true
+  },
+  "slashblade:tips/reforge": {
+    "criteria": {
+      "customtrigger": "2024-07-02 23:43:31 +0800"
+    },
+    "done": true
+  },
+  "slashblade:blade/s_white": {
+    "criteria": {
+      "crafting": "2024-07-02 23:43:31 +0800"
+    },
+    "done": true
+  },
+  "slashblade:abilities/air_trick": {
+    "criteria": {
+      "customtrigger": "2024-07-02 23:46:54 +0800"
+    },
+    "done": true
+  },
+  "slashblade:blade/broken_white": {
+    "criteria": {
+      "BrokenBlade": "2024-07-02 23:47:01 +0800"
+    },
+    "done": true
+  },
+  "slashblade:arts/combo_c": {
+    "criteria": {
+      "customtrigger": "2024-07-02 23:47:09 +0800"
+    },
+    "done": true
+  },
+  "slashblade:blade/s_iron": {
+    "criteria": {
+      "crafting": "2024-07-02 23:56:39 +0800"
+    },
+    "done": true
+  },
+  "slashblade:abilities/trick_up": {
+    "criteria": {
+      "customtrigger": "2024-07-02 23:57:07 +0800"
+    },
+    "done": true
+  },
+  "slashblade:material/proudsoul_crystal": {
+    "criteria": {
+      "BrokenBlade": "2024-07-03 00:12:02 +0800"
+    },
+    "done": true
+  },
+  "slashblade:tips/refine": {
+    "criteria": {
+      "customtrigger": "2024-07-03 00:14:06 +0800"
+    },
+    "done": true
+  },
+  "slashblade:arts/upperslash": {
+    "criteria": {
+      "customtrigger": "2024-07-03 00:15:29 +0800"
+    },
+    "done": true
+  },
+  "slashblade:abilities/guard_just": {
+    "criteria": {
+      "customtrigger": "2024-07-03 00:34:47 +0800"
+    },
+    "done": true
+  },
+  "slashblade:arts/upperslash_jump": {
+    "criteria": {
+      "customtrigger": "2024-07-03 00:38:12 +0800"
+    },
+    "done": true
+  },
+  "slashblade:arts/aerial_cleave": {
+    "criteria": {
+      "customtrigger": "2024-07-03 00:38:56 +0800"
+    },
+    "done": true
+  },
+  "slashblade:blade/ex/fox_black": {
+    "criteria": {
+      "crafting": "2024-07-03 00:44:36 +0800"
+    },
+    "done": true
+  },
+  "slashblade:blade/ex/fox_white": {
+    "criteria": {
+      "crafting": "2024-07-03 20:28:46 +0800"
+    },
+    "done": true
+  },
+  "slashblade:blade/ex/muramasa": {
+    "criteria": {
+      "crafting": "2024-07-03 20:28:47 +0800"
+    },
+    "done": true
+  },
+  "slashblade:blade/ex/ruby": {
+    "criteria": {
+      "crafting": "2024-07-03 20:28:48 +0800"
+    },
+    "done": true
+  },
+  "slashblade:blade/ex/tukumo": {
+    "criteria": {
+      "crafting": "2024-07-03 20:28:49 +0800"
+    },
+    "done": true
+  },
+  "slashblade:blade/s_bamboo": {
+    "criteria": {
+      "crafting": "2024-07-03 20:28:51 +0800"
+    },
+    "done": true
+  },
+  "ae2:main/root": {
+    "criteria": {
+      "copper": "2024-07-04 03:18:48 +0800"
+    },
+    "done": true
+  },
+  "create:copper_casing": {
+    "criteria": {
+      "0": "2024-07-04 03:18:52 +0800"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:recipes/printer": {
+    "criteria": {
+      "has_item": "2024-07-04 03:18:54 +0800"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:recipes/disenchanter": {
+    "criteria": {
+      "has_item": "2024-07-04 03:18:54 +0800"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:spirit_taking": {
+    "criteria": {
+      "builtin": "2024-07-04 04:02:28 +0800"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:copiable_mystery": {
+    "criteria": {
+      "builtin": "2024-07-04 04:09:02 +0800"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:experimental": {
+    "criteria": {
+      "builtin": "2024-07-04 05:09:17 +0800"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_illager_campsite": {
+    "criteria": {
+      "location0": "2024-07-04 05:30:45 +0800"
+    },
+    "done": true
+  },
+  "botania:main/functional_flower": {
+    "criteria": {
+      "flower": "2024-07-04 05:45:47 +0800"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_undead_pirate_ship": {
+    "criteria": {
+      "location0": "2024-07-04 05:55:24 +0800"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_wishing_well": {
+    "criteria": {
+      "location0": "2024-07-04 06:01:12 +0800"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_typhon": {
+    "criteria": {
+      "location0": "2024-07-04 06:01:55 +0800"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_greenwood_pub": {
+    "criteria": {
+      "location0": "2024-07-04 06:04:27 +0800"
+    },
+    "done": true
+  },
+  "ae2:main/presses": {
+    "criteria": {
+      "calculation": "2024-07-04 06:07:19 +0800",
+      "silicon": "2024-07-04 06:07:19 +0800",
+      "engineering": "2024-07-04 06:07:19 +0800",
+      "logic": "2024-07-04 06:07:19 +0800"
+    },
+    "done": true
+  },
+  "botania:main/spark_craft": {
+    "criteria": {
+      "spark": "2024-07-04 06:46:50 +0800"
+    },
+    "done": true
+  },
+  "botania:main/terrasteel_pickup_lexicon": {
+    "criteria": {
+      "terrasteel": "2024-07-04 06:50:38 +0800"
+    },
+    "done": true
+  },
+  "botania:main/terrasteel_pickup": {
+    "criteria": {
+      "terrasteel": "2024-07-04 06:50:38 +0800"
+    },
+    "done": true
+  },
+  "apotheosis:give_book": {
+    "criteria": {
+      "tick": "2024-07-04 19:41:43 +0800"
+    },
+    "done": true
+  },
+  "apotheosis:affix/root": {
+    "criteria": {
+      "sword": "2024-07-04 20:50:00 +0800"
+    },
+    "done": true
+  },
+  "apotheosis:affix/boss": {
+    "criteria": {
+      "sword": "2024-07-04 20:50:00 +0800"
+    },
+    "done": true
+  },
+  "apotheosis:affix/gem": {
+    "criteria": {
+      "gem": "2024-07-04 20:50:00 +0800"
+    },
+    "done": true
+  },
+  "apotheosis:affix/mythic_gem": {
+    "criteria": {
+      "gem": "2024-07-04 21:12:43 +0800"
+    },
+    "done": true
+  },
+  "slashblade:arts/shooting/summonedswords": {
+    "criteria": {
+      "customtrigger": "2024-07-04 21:18:09 +0800"
+    },
+    "done": true
+  },
+  "slashblade:arts/shooting/spiral_swords": {
+    "criteria": {
+      "customtrigger": "2024-07-04 21:18:48 +0800"
+    },
+    "done": true
+  },
+  "slashblade:arts/shooting/blistering_swords": {
+    "criteria": {
+      "customtrigger": "2024-07-04 21:19:13 +0800"
+    },
+    "done": true
+  },
+  "slashblade:arts/shooting/storm_swords": {
+    "criteria": {
+      "customtrigger": "2024-07-04 21:51:04 +0800"
+    },
+    "done": true
+  },
+  "slashblade:abilities/trick_down": {
+    "criteria": {
+      "customtrigger": "2024-07-04 22:04:26 +0800"
+    },
+    "done": true
+  },
+  "apotheosis:affix/rare_gem": {
+    "criteria": {
+      "gem": "2024-07-04 22:16:33 +0800"
+    },
+    "done": true
+  },
+  "apotheosis:affix/rare": {
+    "criteria": {
+      "sword": "2024-07-04 22:16:50 +0800"
+    },
+    "done": true
+  },
+  "apotheosis:affix/epic": {
+    "criteria": {
+      "sword": "2024-07-04 22:17:08 +0800"
+    },
+    "done": true
+  },
+  "apotheosis:affix/random": {
+    "criteria": {
+      "sword": "2024-07-04 22:17:08 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2024-07-04 23:06:20 +0800"
+    },
+    "done": true
+  },
+  "slashblade:material/proudsoul_trapezohedron": {
+    "criteria": {
+      "BrokenBlade": "2024-07-04 23:13:59 +0800"
+    },
+    "done": true
+  },
+  "slashblade:material/proudsoul_activated": {
+    "criteria": {
+      "BrokenBlade": "2024-07-04 23:14:30 +0800"
+    },
+    "done": true
+  },
+  "slashblade:material/proudsoul_awakened": {
+    "criteria": {
+      "BrokenBlade": "2024-07-04 23:15:30 +0800"
+    },
+    "done": true
+  },
+  "slashblade:arts/shooting/heavy_rain_swords": {
+    "criteria": {
+      "customtrigger": "2024-07-04 23:17:29 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2024-07-04 23:32:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/create_beacon": {
+    "criteria": {
+      "beacon": "2024-07-04 23:36:49 +0800"
+    },
+    "done": true
+  },
+  "apotheosis:spawner/root": {
+    "criteria": {
+      "spawner": "2024-07-05 00:21:35 +0800"
+    },
+    "done": true
+  },
+  "botania:main/terrasteel_weapon_craft": {
+    "criteria": {
+      "terrablade": "2024-07-05 00:42:10 +0800"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_mechanical_nest": {
+    "criteria": {
+      "location0": "2024-07-05 00:44:19 +0800"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_lighthouse": {
+    "criteria": {
+      "location0": "2024-07-05 01:19:27 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2024-07-05 01:22:06 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2024-07-05 01:23:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2024-07-05 01:27:35 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2024-07-05 01:27:35 +0800"
+    },
+    "done": true
+  },
+  "botania:main/ender_air_make": {
+    "criteria": {
+      "air": "2024-07-05 01:29:31 +0800"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_egg": {
+    "criteria": {
+      "dragon_egg": "2024-07-05 01:41:46 +0800"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_aviary": {
+    "criteria": {
+      "location0": "2024-07-05 01:52:36 +0800"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_heavenly_challenger": {
+    "criteria": {
+      "location0": "2024-07-05 02:20:03 +0800"
+    },
+    "done": true
+  },
+  "apotheosis:affix/chests": {
+    "criteria": {
+      "sword": "2024-07-05 04:04:35 +0800"
+    },
+    "done": true
+  },
+  "apotheosis:affix/mythic": {
+    "criteria": {
+      "sword": "2024-07-05 04:31:48 +0800"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:gone_with_the_foil": {
+    "criteria": {
+      "builtin": "2024-07-05 04:39:10 +0800"
+    },
+    "done": true
+  },
+  "slashblade:arts/combo_b_max": {
+    "criteria": {
+      "customtrigger": "2024-07-05 06:06:32 +0800"
+    },
+    "done": true
+  },
+  "silentgear:crimson_iron": {
+    "criteria": {
+      "get_ingot": "2024-07-05 22:01:28 +0800"
+    },
+    "done": false
+  },
+  "silentgear:salvager": {
+    "criteria": {
+      "get_item": "2024-07-05 22:02:02 +0800"
+    },
+    "done": true
+  },
+  "silentgear:the_end": {
+    "criteria": {
+      "entered_the_end": "2024-07-05 22:02:06 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2024-07-05 23:00:30 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2024-07-05 23:01:49 +0800"
+    },
+    "done": true
+  },
+  "apotheosis:spawner/capturing": {
+    "criteria": {
+      "egg": "2024-07-06 02:36:14 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/throw_trident": {
+    "criteria": {
+      "shot_trident": "2024-07-06 03:08:32 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2024-07-06 03:08:44 +0800"
+    },
+    "done": true
+  },
+  "silentgear:nether": {
+    "criteria": {
+      "entered_nether": "2024-07-06 03:42:57 +0800"
+    },
+    "done": true
+  },
+  "create:funnel": {
+    "criteria": {
+      "0": "2024-07-06 05:30:29 +0800"
+    },
+    "done": true
+  },
+  "create:deployer": {
+    "criteria": {
+      "0": "2024-07-06 05:44:54 +0800"
+    },
+    "done": true
+  },
+  "create:belt": {
+    "criteria": {
+      "0": "2024-07-06 05:46:05 +0800"
+    },
+    "done": true
+  },
+  "create:precision_mechanism": {
+    "criteria": {
+      "0": "2024-07-06 06:12:26 +0800"
+    },
+    "done": true
+  },
+  "create:mechanical_pump_0": {
+    "criteria": {
+      "0": "2024-07-06 07:19:41 +0800"
+    },
+    "done": true
+  },
+  "create:speed_controller": {
+    "criteria": {
+      "0": "2024-07-06 08:12:45 +0800"
+    },
+    "done": true
+  },
+  "slashblade:arts/combo_a_ex": {
+    "criteria": {
+      "customtrigger": "2024-07-07 02:35:07 +0800"
+    },
+    "done": true
+  },
+  "apotheosis:affix/socket": {
+    "criteria": {
+      "socket": "2024-07-07 02:51:27 +0800"
+    },
+    "done": true
+  },
+  "botania:main/elf_portal_open": {
+    "criteria": {
+      "portal": "2024-07-07 07:02:46 +0800"
+    },
+    "done": true
+  },
+  "botania:main/elf_lexicon_pickup": {
+    "criteria": {
+      "lexicon": "2024-07-07 07:02:59 +0800"
+    },
+    "done": true
+  },
+  "exblades:root": {
+    "criteria": {
+      "crafting": "2024-07-07 17:20:54 +0800"
+    },
+    "done": true
+  },
+  "ars_nouveau:root": {
+    "criteria": {
+      "ars_nouveau:worn_notebook": "2024-07-07 17:20:54 +0800"
+    },
+    "done": true
+  },
+  "inventorypets:root": {
+    "criteria": {
+      "auto": "2024-07-07 17:20:54 +0800"
+    },
+    "done": true
+  },
+  "exblades:exblades/yamato": {
+    "criteria": {
+      "crafting": "2024-07-07 17:20:54 +0800"
+    },
+    "done": true
+  },
+  "lootr:root": {
+    "criteria": {
+      "always_true": "2024-07-07 17:20:54 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2024-07-07 18:24:59 +0800"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/enchanting_stats": {
+    "criteria": {
+      "enchanted_item": "2024-07-07 18:29:48 +0800"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/60ench": {
+    "criteria": {
+      "enchanted_item": "2024-07-07 18:29:48 +0800"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/100ench": {
+    "criteria": {
+      "enchanted_item": "2024-07-07 18:29:48 +0800"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/30ench": {
+    "criteria": {
+      "enchanted_item": "2024-07-07 18:29:48 +0800"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/80ench": {
+    "criteria": {
+      "enchanted_item": "2024-07-07 18:29:48 +0800"
+    },
+    "done": true
+  },
+  "evilcraft:root": {
+    "criteria": {
+      "criteria_0": "2024-07-07 19:19:46 +0800"
+    },
+    "done": true
+  },
+  "apotheotic_additions:affix/artifact": {
+    "criteria": {
+      "sword": "2024-07-07 19:33:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2024-07-07 19:40:44 +0800"
+    },
+    "done": true
+  },
+  "apotheotic_additions:affix/materials": {
+    "criteria": {
+      "material": "2024-07-07 19:41:38 +0800"
+    },
+    "done": true
+  },
+  "apotheosis:affix/gem_cut": {
+    "criteria": {
+      "cut": "2024-07-07 21:58:11 +0800"
+    },
+    "done": true
+  },
+  "apotheosis:affix/ancient_gem": {
+    "criteria": {
+      "gem": "2024-07-07 21:58:11 +0800"
+    },
+    "done": true
+  },
+  "silentgear:root": {
+    "criteria": {
+      "get_item": "2024-07-07 22:31:53 +0800"
+    },
+    "done": true
+  },
+  "minecraft:end/levitate": {
+    "criteria": {
+      "levitated": "2024-07-08 00:03:08 +0800"
+    },
+    "done": true
+  },
+  "apotheosis:spawner/playerrange": {
+    "criteria": {
+      "modifier": "2024-07-08 00:29:35 +0800"
+    },
+    "done": true
+  },
+  "apotheosis:spawner/light": {
+    "criteria": {
+      "modifier": "2024-07-08 00:29:35 +0800"
+    },
+    "done": true
+  },
+  "apotheosis:spawner/players": {
+    "criteria": {
+      "modifier": "2024-07-08 00:29:35 +0800"
+    },
+    "done": true
+  },
+  "apotheosis:spawner/modifier": {
+    "criteria": {
+      "modifier": "2024-07-08 00:29:35 +0800"
+    },
+    "done": true
+  },
+  "apotheosis:spawner/noai": {
+    "criteria": {
+      "modifier": "2024-07-08 00:29:35 +0800"
+    },
+    "done": true
+  },
+  "apotheosis:spawner/redstone": {
+    "criteria": {
+      "modifier": "2024-07-08 00:29:35 +0800"
+    },
+    "done": true
+  },
+  "apotheosis:spawner/mindelay": {
+    "criteria": {
+      "modifier": "2024-07-08 00:29:35 +0800"
+    },
+    "done": true
+  },
+  "apotheosis:spawner/nearbyents": {
+    "criteria": {
+      "modifier": "2024-07-08 00:29:35 +0800"
+    },
+    "done": true
+  },
+  "apotheosis:spawner/spawncount": {
+    "criteria": {
+      "modifier": "2024-07-08 01:35:45 +0800"
+    },
+    "done": true
+  },
+  "apotheosis:spawner/maxdelay": {
+    "criteria": {
+      "modifier": "2024-07-08 01:35:46 +0800"
+    },
+    "done": true
+  },
+  "botania:main/gaia_guardian_kill": {
+    "criteria": {
+      "guardian": "2024-07-08 07:49:11 +0800"
+    },
+    "done": true
+  },
+  "botania:challenge/gaia_guardian_hardmode": {
+    "criteria": {
+      "guardian": "2024-07-08 07:53:47 +0800"
+    },
+    "done": true
+  },
+  "botania:challenge/loki_ring": {
+    "criteria": {
+      "ring": "2024-07-08 07:54:28 +0800"
+    },
+    "done": true
+  },
+  "botania:challenge/thor_ring": {
+    "criteria": {
+      "ring": "2024-07-08 08:11:02 +0800"
+    },
+    "done": true
+  },
+  "botania:challenge/odin_ring": {
+    "criteria": {
+      "ring": "2024-07-08 08:11:04 +0800"
+    },
+    "done": true
+  },
+  "botania:challenge/flugel_eye": {
+    "criteria": {
+      "eye": "2024-07-08 19:08:21 +0800"
+    },
+    "done": true
+  },
+  "botania:challenge/infinite_fruit": {
+    "criteria": {
+      "fruit": "2024-07-08 19:14:55 +0800"
+    },
+    "done": true
+  },
+  "enderio:place_capacitor_bank": {
+    "criteria": {
+      "place_capacitor_bank": "2024-07-08 23:49:06 +0800"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}
